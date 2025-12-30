@@ -1,10 +1,8 @@
----
-
 ## 📱 Shujia — Mobile UI Slicing Practice
 
 This project is part of a learning process focused on **slicing UI designs from Figma into code** using **Tailwind CSS**. The main goal is to practice building a **clean, responsive, and well-structured mobile interface**.
 
-### 🚀 What I’m Learning
+### 🚀What I’m Learning
 
 * 🎨 Translating Figma designs into semantic HTML
 * 💨 Styling layouts efficiently using **Tailwind CSS utilities**
@@ -21,5 +19,3 @@ This project is part of a learning process focused on **slicing UI designs from 
 * **Figma (Design Reference)**
 
 This project is intended as hands-on practice to improve UI slicing skills, understand Tailwind CSS workflows, and get used to turning designs into real, usable interfaces. ✨
-
----
