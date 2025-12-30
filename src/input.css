@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-shujia-almostwhite font-poppins text-shujia-black;
+  @apply bg-slate-700 font-poppins text-shujia-black;
 }

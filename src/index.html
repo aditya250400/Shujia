@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shujia</title>
+    <title>Shujia | Home Service</title>
     <link href="./output.css" rel="stylesheet" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- Poppins Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +18,48 @@
     />
     <!-- Poppins Font end -->
   </head>
-  <body class="">
-    <h1 class="text-3xl">Halo</h1>
+  <body>
+    <main
+      class="relative mx-auto flex flex-col gap-[40px] max-w-screen-sm overflow-hidden bg-white pb-[142px]"
+    >
+      <!-- background  -->
+      <div id="Background" class="absolute top-0 left-0 right-0">
+        <img
+          class="h-[349.02px] w-full object-cover object-bottom"
+          src="assets/images/backgrounds/banner.png"
+          alt="image"
+        />
+      </div>
+      <!-- background  end -->
+
+      <!-- Nav Top -->
+      <section id="NavTop" class=""></section>
+      <!-- Nav Top end -->
+
+      <!-- Header -->
+      <header></header>
+      <!-- Header end -->
+
+      <div id="Container" class="flex flex-col gap-[30px]">
+        <!-- Categories -->
+        <section id="Categories"></section>
+        <!-- Categories end -->
+
+        <!-- Adverticement end -->
+        <section id="Adverticement"></section>
+        <!-- Adverticement end -->
+
+        <!-- PopularSummer  -->
+        <section id="PopularSummer"></section>
+        <!-- PopularSummer end -->
+      </div>
+
+      <!-- NavBottom -->
+      <nav id="NavBottom"></nav>
+      <!-- NavBottom end -->
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -1,6 +1,0 @@
-{
-    "plugins": ["prettier-plugin-tailwindcss"],
-    "tailwindPreserveDuplicates": false,
-    "printWidth": 680,
-    "tabWidth": 4
-}
