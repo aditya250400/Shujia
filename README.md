@@ -6,7 +6,7 @@ This project is part of a learning process focused on **slicing UI designs from 
 
 * 🎨 Translating Figma designs into semantic HTML
 * 💨 Styling layouts efficiently using **Tailwind CSS utilities**
-* 📱 Building **mobile-first & responsive** UI
+* 📱 Building **mobile-first** UI
 * 🧩 Managing assets such as icons and images properly
 * 🛠️ Setting up and working with Tailwind CSS in **Visual Studio Code**
 * 🧼 Writing clean, readable, and maintainable front-end code
