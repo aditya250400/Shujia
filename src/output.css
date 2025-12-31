@@ -1058,6 +1058,10 @@ video {
   line-height: 36px;
 }
 
+.leading-7 {
+  line-height: 1.75rem;
+}
+
 .text-shujia-gray {
   --tw-text-opacity: 1;
   color: rgb(67 72 76 / var(--tw-text-opacity, 1));
