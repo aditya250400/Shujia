@@ -698,6 +698,10 @@ video {
   min-height: 48px;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .\!w-fit {
   width: -moz-fit-content !important;
   width: fit-content !important;
@@ -829,6 +833,10 @@ video {
 
 .gap-\[45px\] {
   gap: 45px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
 }
 
 .gap-x-\[10px\] {
@@ -1037,6 +1045,14 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pb-\[158px\] {
+  padding-bottom: 158px;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
 }
 
 .text-center {
