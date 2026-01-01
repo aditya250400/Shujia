@@ -614,6 +614,10 @@ video {
   left: 20.5px;
 }
 
+.left-\[16px\] {
+  left: 16px;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -696,6 +700,10 @@ video {
 
 .h-\[190px\] {
   height: 190px;
+}
+
+.h-\[68px\] {
+  height: 68px;
 }
 
 .min-h-\[48px\] {
