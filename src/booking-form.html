@@ -17,10 +17,49 @@
       class="relative mx-auto min-h-screen w-full max-w-[640px] bg-[#F4F5F7]"
     >
       <!-- Background -->
-      <div id="Background"></div>
+      <div id="Background" class="absolute top-0 left-0 right-0">
+        <img
+          src="assets/images/thumbnails/categoryBackground.png"
+          alt="background"
+          class="h-[350px] w-full object-cover object-bottom"
+        />
+      </div>
 
       <!-- NavTop -->
-      <section id="NavTop"></section>
+      <section
+        id="NavTop"
+        class="fixed left-0 right-0 top-[16px] z-30 transition-all duration-300"
+      >
+        <div class="mx-auto max-w-[640px] px-5">
+          <div
+            id="ContainerNav"
+            class="relative flex h-[68px] items-center justify-center transition-all duration-300"
+          >
+            <a
+              id="BackA"
+              href="my-cart.html"
+              class="absolute left-0 transition-all duration-300"
+            >
+              <div
+                id="Back"
+                class="flex h-[44px] w-[44px] shrink-0 items-center justify-center rounded-full bg-white"
+              >
+                <img
+                  src="assets/images/icons/service-detail-left-arrow.svg"
+                  alt="icon"
+                  class="h-[22px] w-[22px]"
+                />
+              </div>
+            </a>
+            <h2
+              id="Title"
+              class="font-semibold text-white transition-all duration-300"
+            >
+              Booking Services
+            </h2>
+          </div>
+        </div>
+      </section>
 
       <!-- ProgressBar -->
       <section id="ProgressBar"></section>
