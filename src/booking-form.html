@@ -278,11 +278,106 @@
             </section>
 
             <!-- YourHomeAddress -->
-            <section id="YourHomeAddress"></section>
+            <!-- booking-form.html -->
+
+            <section
+              id="YourHomeAddress"
+              class="flex flex-col gap-4 rounded-3xl border border-shujia-graylight bg-white px-[14px] py-[14px]"
+            >
+              <div class="flex items-center justify-between">
+                <h3 class="font-semibold">Your Home Address</h3>
+                <button
+                  type="button"
+                  data-expand="YourHomeAddressJ"
+                  class="shrink-0"
+                >
+                  <img
+                    src="assets/images/icons/arrow-down.svg"
+                    alt="icon"
+                    class="h-[32px] w-[32px] transition-all duration-300"
+                  />
+                </button>
+              </div>
+              <div id="YourHomeAddressJ" class="flex flex-col gap-4">
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">Address</h4>
+                  <div
+                    class="relative h-[110px] w-full overflow-hidden rounded-[22px] border border-shujia-graylight transition-all duration-300 focus-within:border-shujia-orange"
+                  >
+                    <textarea
+                      placeholder="Enter your complete address"
+                      required
+                      class="h-full w-full pl-[50px] pr-[14px] pt-[14px] font-semibold leading-7 placeholder:text-[16px] placeholder:font-normal placeholder:text-shujia-gray focus:outline-none"
+                      name=""
+                      id=""
+                    ></textarea>
+                    <img
+                      src="assets/images/icons/house.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-[14px] h-6 w-6 shrink-0"
+                    />
+                  </div>
+                </label>
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">City</h4>
+                  <div
+                    class="relative h-[52px] w-full overflow-hidden rounded-full border border-shujia-graylight transition-all duration-300 focus-within:border-shujia-orange"
+                  >
+                    <img
+                      src="assets/images/icons/location.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <select
+                      name=""
+                      id=""
+                      class="relative z-10 h-full w-full appearance-none rounded-full bg-transparent pl-[50px] font-semibold focus:outline-none"
+                    >
+                      <option value="" disabled selected>
+                        Enter the city name
+                      </option>
+                      <option value="Buitenzorg">Buitenzorg</option>
+                      <option value="Surabaya">Surabaya</option>
+                      <option value="Jakarta">Jakarta</option>
+                    </select>
+                    <img
+                      src="assets/images/icons/arrow-down.svg"
+                      alt="icon"
+                      class="absolute right-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                  </div>
+                </label>
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">Post Code</h4>
+                  <div
+                    class="relative h-[52px] w-full overflow-hidden rounded-full border border-shujia-graylight transition-all duration-300 focus-within:border-shujia-orange"
+                  >
+                    <img
+                      src="assets/images/icons/globe.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <input
+                      required
+                      class="post-code h-full w-full rounded-full pl-[50px] font-semibold leading-6 placeholder:text-[16px] placeholder:font-normal placeholder:text-shujia-gray focus:outline-none"
+                      placeholder="What’s your postal code"
+                      type="tel"
+                    />
+                  </div>
+                </label>
+              </div>
+            </section>
           </div>
 
           <!-- ContinueToPayment -->
-          <button id="ContinueToPayment" type="submit"></button>
+
+          <button
+            id="ContinueToPayment"
+            type="submit"
+            class="mt-[44px] w-full rounded-full bg-shujia-orange py-[14px] font-semibold text-white transition-all duration-300 hover:shadow-[0px_4px_10px_0px_#D04B1E80]"
+          >
+            Continue to Payment
+          </button>
         </form>
       </div>
     </main>
