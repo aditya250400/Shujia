@@ -200,7 +200,82 @@
               </div>
             </section>
             <!-- PersonalInformations -->
-            <section id="PersonalInformations"></section>
+
+            <section
+              id="PersonalInformations"
+              class="flex flex-col gap-4 bg-white border rounded-3xl border-r-shujia-graylight p-[14px]"
+            >
+              <div class="flex items-center justify-between">
+                <h3 class="font-semibold">Personal Informations</h3>
+                <button
+                  type="button"
+                  class="shrink-0"
+                  data-expand="PersonalInformationsJ"
+                >
+                  <img
+                    src="assets/images/icons/arrow-down.svg"
+                    alt="icon"
+                    class="w-[32px] h-[32px] transition-all duration-300"
+                  />
+                </button>
+              </div>
+              <div id="PersonalInformationsJ" class="flex flex-col gap-4">
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">Full Name</h4>
+                  <div
+                    class="relative h-[52px] w-full overflow-hidden rounded-full border border-shujia-graylight bg-white transition-all duration-300 focus-within:border-shujia-orange"
+                  >
+                    <img
+                      src="assets/images/icons/person.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <input
+                      required
+                      class="h-full w-full rounded-full pl-[50px] font-semibold leading-6 placeholder:text-[16px] placeholder:font-normal placeholder:text-shujia-gray focus:outline-none"
+                      placeholder="Write your complete name"
+                      type="text"
+                    />
+                  </div>
+                </label>
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">Email Address</h4>
+                  <div
+                    class="relative h-[52px] w-full overflow-hidden rounded-full border border-shujia-graylight bg-white transition-all duration-300 focus-within:border-shujia-orange"
+                  >
+                    <img
+                      src="assets/images/icons/email.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <input
+                      type="email"
+                      required
+                      class="h-full w-full rounded-full pl-[50px] font-semibold leading-6 placeholder:text-[16px] placeholder:font-normal placeholder:text-shujia-gray focus:outline-none"
+                      placeholder="Write your email"
+                    />
+                  </div>
+                </label>
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">No. Phone</h4>
+                  <div
+                    class="relative h-[52px] w-full overflow-hidden rounded-full border border-shujia-graylight bg-white transition-all duration-300 focus-within:border-shujia-orange"
+                  >
+                    <img
+                      src="assets/images/icons/phone.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <input
+                      type="tel"
+                      required
+                      class="h-full w-full rounded-full pl-[50px] font-semibold leading-6 placeholder:text-[16px] placeholder:font-normal placeholder:text-shujia-gray focus:outline-none"
+                      placeholder="Write your active number"
+                    />
+                  </div>
+                </label>
+              </div>
+            </section>
 
             <!-- YourHomeAddress -->
             <section id="YourHomeAddress"></section>
