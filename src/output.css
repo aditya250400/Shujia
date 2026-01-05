@@ -622,6 +622,14 @@ video {
   right: 50%;
 }
 
+.left-\[14px\] {
+  left: 14px;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -764,6 +772,14 @@ video {
   height: 0.5rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-\[52px\] {
+  height: 52px;
+}
+
 .min-h-\[48px\] {
   min-height: 48px;
 }
@@ -841,6 +857,10 @@ video {
   width: 25px;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
 .min-w-\[130px\] {
   min-width: 130px;
 }
@@ -882,9 +902,20 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .-rotate-180 {
   --tw-rotate: -180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-cols-2 {
@@ -1106,6 +1137,15 @@ video {
   background-color: rgb(255 191 169 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#f4f5f7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 245 247 / var(--tw-bg-opacity, 1));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1126,6 +1166,10 @@ video {
 
 .p-\[14px\] {
   padding: 14px;
+}
+
+.p-\[14pz\] {
+  padding: 14pz;
 }
 
 .px-2 {
@@ -1218,6 +1262,10 @@ video {
 
 .pt-\[92px\] {
   padding-top: 92px;
+}
+
+.pl-\[50px\] {
+  padding-left: 50px;
 }
 
 .text-center {
@@ -1374,4 +1422,9 @@ body {
   --tw-shadow: 0px 4px 10px 0px #D04B1E80;
   --tw-shadow-colored: 0px 4px 10px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }

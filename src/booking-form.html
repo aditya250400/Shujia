@@ -127,12 +127,78 @@
       <div class="relative mt-[44px] flex flex-col px-5 pb-5">
         <form action="payment.html">
           <!-- header -->
-          <header></header>
+          <header class="flex flex-col gap-[2px]">
+            <h1 class="font-extrabold text-[26px] leading-[39px] text-white">
+              Start Booking
+            </h1>
+            <p class="text-white">Lorem dolor si amet data asli</p>
+          </header>
 
           <!-- form -->
           <div class="mt-[20px] flex flex-col gap-5">
             <!-- WorkingSchedule -->
-            <section id="WorkingSchedule"></section>
+            <section
+              id="WorkingSchedule"
+              class="flex flex-col gap-4 rounded-3xl border-shujia-graylight bg-white p-[14px]"
+            >
+              <div class="flex items-center justify-between">
+                <h3 class="font-semibold">Working Schedule</h3>
+                <button
+                  type="button"
+                  data-expand="WorkingScheduleJ"
+                  class="shrink-0"
+                >
+                  <img
+                    class="h-[32px] w-[32px] transition-all duration-300"
+                    src="assets/images/icons/arrow-down.svg"
+                    alt="icon"
+                  />
+                </button>
+              </div>
+              <div id="WorkingScheduleJ" class="flex flex-col gap-4">
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">Date</h4>
+                  <div
+                    class="relative w-full overflow-hidden border border-shujia-graylight h-[52px] rounded-full"
+                  >
+                    <img
+                      src="assets/images/icons/calendar.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <input
+                      required
+                      readonly
+                      class="w-full h-full bg-[#f4f5f7] pl-[50px] focus:outline-none"
+                      type="text"
+                      value="17 October 2024"
+                    />
+                  </div>
+                </label>
+                <label class="flex flex-col gap-2">
+                  <h4 class="font-semibold">Start Time At</h4>
+                  <div
+                    class="relative w-full overflow-hidden border border-shujia-graylight h-[52px] rounded-full"
+                  >
+                    <img
+                      src="assets/images/icons/clock.svg"
+                      alt="icon"
+                      class="absolute left-[14px] top-1/2 h-6 w-6 shrink-0 -translate-y-1/2"
+                    />
+                    <select
+                      name=""
+                      id=""
+                      class="relative appearance-none h-full w-full bg-transparent pl-[50px] font-semibold focus:outline-none"
+                    >
+                      <option value="" disabled selected>Enter the time</option>
+                      <option value="09:00">09:00</option>
+                      <option value="10:00">10:00</option>
+                      <option value="11:00">11:00</option>
+                    </select>
+                  </div>
+                </label>
+              </div>
+            </section>
             <!-- PersonalInformations -->
             <section id="PersonalInformations"></section>
 
