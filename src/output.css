@@ -816,6 +816,10 @@ video {
   height: 24px;
 }
 
+.h-\[480px\] {
+  height: 480px;
+}
+
 .min-h-\[48px\] {
   min-height: 48px;
 }
@@ -1303,6 +1307,10 @@ video {
 
 .pt-\[92px\] {
   padding-top: 92px;
+}
+
+.pb-\[30px\] {
+  padding-bottom: 30px;
 }
 
 .text-center {
